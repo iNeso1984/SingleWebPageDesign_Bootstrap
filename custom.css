@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body {
+  font-family: poppins, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong,
+figcaption {
+  font-family: poppins, sans-serif;
+
+  font-weight: 700;
+
+  font-style: normal;
+  color: #213b39;
+}
+header {
+  background-color: #4ea19b;
+  color: white;
+  padding-bottom: 40px;
+}
+#address {
+  color: #8af7f0;
+}
+
+#banner {
+  background-color: #e9e8e6;
+  padding-bottom: 5px;
+}
+
+#pots {
+  background-color: #dbf3ea;
+}
+
+#instagram {
+  background-color: #f4fcfd;
+}
+
+#workshop {
+  background-color: #d1ee8d;
+}
+
+footer {
+  background-color: #4ea19b;
+  padding-top: 40px;
+}
+#tagline {
+  padding-bottom: 12px;
+  text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#pots h2 {
+  color: #213b39;
+}
+#logo {
+  height: 200px;
+  width: 200px;
+}
+img.img-fluid {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#instagram h2 {
+  color: #213b39;
+}
+#instagram img {
+  border: 10px double #fff;
+  margin-bottom: 30px;
+}
+/* The figcaption is the text, placed with absolute positioning. 
+The figure is the "relative" reference point.
+
+What is figcaption span? This style sets the black background 
+color to display behind the text ONLY. Without the span, the black background would span all the way across.
+
+And what about figcaption span.spacer? This style adds a space
+ mark after "Made to order:" and before "Choose a pot". */
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+figcaption span {
+  color: white;
+  font-size: 24px;
+  line-height: 45px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+figcaption span.spacer {
+  padding: 0 2px;
+  background: none;
+}
+#logo:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  box-shadow: 10px px black;
+}
+.figure-caption:hover {
+  transform: scale(0.5);
+  transition: 1.5s;
+  box-shadow: 10px px black;
+}
+#pots {
+  position: relative;
+  padding-bottom: 80px;
+}
+#tagline {
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+  font-size: 100px;
+  line-height: 1;
+  text-align: right;
+  color: #fffc35;
+}
+#workshop .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#asterisk {
+  position: absolute;
+  top: -150px;
+  left: 0px;
+  font-size: 200px;
+  line-height: 1;
+  color: #4ea19b;
+}
+footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  header #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  header ul#social {
+    text-align: center;
+  }
+  header #address {
+    text-align: center;
+    line-height: 2;
+  }
+  #asterisk {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  ul#social {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+  }
+  #address {
+    font-size: 20px;
+    position: absolute;
+
+    right: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #instagram1 {
+    position: relative;
+  }
+  #instagram2 {
+    position: relative;
+  }
+  #instagram3 {
+    position: relative;
+    left: 40px;
+  }
+  #instagram4 {
+    position: relative;
+    top: 80px;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+  }
+  #instagram7 {
+    position: relative;
+  }
+}
+@media (min-width: 992px) {
+  #instagram1 {
+    position: relative;
+  }
+  #instagram2 {
+    position: relative;
+  }
+  #instagram3 {
+    position: relative;
+  }
+  #instagram4 {
+    position: relative;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+  }
+  #instagram7 {
+    position: relative;
+  }
+}
